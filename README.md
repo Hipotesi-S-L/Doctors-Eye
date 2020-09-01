@@ -1,6 +1,6 @@
 # Doctors Eye
 
-_Doctor eye es un proyecto el cual consiste en buscar las vulnerabilidades de un resultado de busqueda.
+_Doctor eye es un proyecto el cual consiste en buscar las vulnerabilidades de un resultado de busqueda._
 En otras palabras, es un buscador de vulnerabilidades web._
 
 ## Comenzando 🚀
@@ -8,8 +8,11 @@ En otras palabras, es un buscador de vulnerabilidades web._
 _Doctors Eye dispone de una serie de preguntas, como por ejemplo:
 
 _¿Le gustaria guardar la salida en un archivo? (Y/N)_
+
 _Dale un nombre al archivo:_
+
 _Ingrese la consulta de búsqueda del Doctor:_
+
 _Ingrese el número de sitios web para mostrar:_
 _
 
