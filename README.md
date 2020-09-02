@@ -5,7 +5,7 @@ En otras palabras, es un buscador de vulnerabilidades web._
 
 ## Comenzando 🚀
 
-_Doctors Eye dispone de una serie de preguntas, como por ejemplo:
+_Doctors Eye dispone de una serie de preguntas, como por ejemplo:_
 
 _¿Le gustaria guardar la salida en un archivo? (Y/N)_
 
