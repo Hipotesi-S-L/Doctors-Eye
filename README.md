@@ -1,20 +1,19 @@
 # Doctors Eye
 
-_Doctor eye es un proyecto el cual consiste en buscar las vulnerabilidades de un resultado de busqueda._
-En otras palabras, es un buscador de vulnerabilidades web._
+Doctor eye es un proyecto el cual consiste en buscar las vulnerabilidades de un resultado de busqueda.
+En otras palabras, es un buscador de vulnerabilidades web.
+
+_Devido a un problema de programación el Banner del proyecto: [DoctorsEye.py](DoctorsEye.py) no es visible, si quieres ver el proyecto completado pero sin color visita el proyecto [doctorsEyeNonColor.py](doctorsEyeNonColor.py)_
 
 ## Comenzando 🚀
 
-Doctors Eye dispone de una serie de preguntas, como por ejemplo:
+_Doctors Eye dispone de una serie de preguntas, como por ejemplo:
 
 _¿Le gustaria guardar la salida en un archivo? (Y/N)_
-
 _Dale un nombre al archivo:_
-
 _Ingrese la consulta de búsqueda del Doctor:_
-
 _Ingrese el número de sitios web para mostrar:_
-_
+
 
 Mira **Instalación** para conocer como instalar el proyecto.
 
@@ -87,7 +86,7 @@ _Mencion a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 Este proyecto está bajo la Licencia (Apache 2.0) - mira el archivo [LICENSE.md](LICENSE) para detalles.
 
-## 🎁
+## Comparte 🎁
 
 * Comenta a otros sobre este proyecto 📢
 * Visita mi [paguina](http://hipotesi.org) web
