@@ -3,7 +3,7 @@
 
 # ===== #
 # Edu Olivares
-# Doctors Eye: https://github.com/BullsEye0
+# Doctors Eye: https://github.com/Hipotesi
 # Sitio web: http://www.hipotesi.org
 # ===== #
 
