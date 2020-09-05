@@ -3,7 +3,7 @@
 
 # ===== #
 # Edu Olivares
-# Doctors Eye: https://github.com/BullsEye0
+# Doctors Eye: https://github.com/Hipotesi
 # Sitio web: http://www.hipotesi.org
 # ===== #
 
@@ -31,12 +31,13 @@ import sys
 import time
 
 
-# Dorks Eye v1.0
+# Doctors Eye Eye v1.0
 
 
 if sys.version[0] in "2":
-    print ("\n[x] ..n00b.. Doctors Eye Is Not Supported For python 2.x Use Python 3.x \n")
-    print ("\n\n\tDoctors Eye \033[1;91mI like to See Ya, Hacking \033[0m😃\n\n")
+    print(
+        "\n[x] ..n00b.. Doctors Eye Is Not Supported For python 2.x Use Python 3.x \n")
+    print("\n\n\tDoctors Eye \033[1;91mI like to See Ya, Hacking \033[0m😃\n\n")
     exit()
 
 
@@ -71,7 +72,7 @@ for col in x:
     sys.stdout.flush()
     time.sleep(0.0040)
 
-y = "\n\t\tHola, quieres jugar a un juego..? 😃\n"
+y = "\n\t\tHola, quieres jugar a un juego..?\n"
 for col in y:
     print(colors.CRED2 + col, end="")
     sys.stdout.flush()
@@ -85,16 +86,17 @@ for col in z:
 
 
 try:
-    data = input("\n[+] ¿Le gustaria guardar la salida en un archivo? (Y/N) ").strip()
+    data = input(
+        "\n[+] ¿Le gustaria guardar la salida en un archivo? (Y/N) ").strip()
     l0g = ("")
 
 except KeyboardInterrupt:
-        print ("\n")
-        print ("\033[1;91m[!] Interrupción de usuario detectada..!\033[0")
-        time.sleep(0.5)
-        print ("\n\n\t\033[1;91m[!] Me gusta verte.. Hackear \033[0m😃\n\n")
-        time.sleep(0.5)
-        sys.exit(1)
+    print("\n")
+    print("\033[1;91m[!] Interrupción de usuario detectada..!\033[0")
+    time.sleep(0.5)
+    print("\n\n\t\033[1;91m[!] Me gusta verte.. Hackear \033[0m😃\n\n")
+    time.sleep(0.5)
+    sys.exit(1)
 
 
 def logger(data):
@@ -106,25 +108,25 @@ def logger(data):
 
 if data.startswith("y" or "Y"):
     l0g = input("[~] Dale un nombre al archivo: ")
-    print ("\n" + "  " + "»" * 78 + "\n")
+    print("\n" + "  " + "»" * 78 + "\n")
     logger(data)
 else:
-    print ("[!] Guardado omitido...")
-    print ("\n" + "  " + "»" * 78 + "\n")
+    print("[!] Guardado omitido...")
+    print("\n" + "  " + "»" * 78 + "\n")
 
 
 def dorks():
     try:
         dork = input("\n[+] Ingrese la consulta de búsqueda del Doctor: ")
         amount = input("[+] Ingrese el número de sitios web para mostrar: ")
-        print ("\n ")
+        print("\n ")
 
         requ = 0
         counter = 0
 
         for results in search(dork, tld="com", lang="en", num=int(amount), start=0, stop=None, pause=2):
             counter = counter + 1
-            print ("[+] ", counter, results)
+            print("[+] ", counter, results)
             time.sleep(0.1)
             requ += 1
             if requ >= int(amount):
@@ -136,16 +138,16 @@ def dorks():
             time.sleep(0.1)
 
     except KeyboardInterrupt:
-            print ("\n")
-            print ("\033[1;91m[!] Interrupción de usuario detectada..!\033[0")
-            time.sleep(0.5)
-            print ("\n\n\t\033[1;91m[!] Me gusts verte.. Hackear \033[0m😃\n\n")
-            time.sleep(0.5)
-            sys.exit(1)
+        print("\n")
+        print("\033[1;91m[!] Interrupción de usuario detectada..!\033[0")
+        time.sleep(0.5)
+        print("\n\n\t\033[1;91m[!] Me gusts verte.. Hackear \033[0m😃\n\n")
+        time.sleep(0.5)
+        sys.exit(1)
 
-    print ("[•] Hecho... Saliendo...")
-    print ("\n\t\t\t\t\033[34mDoctors Eye\033[0m")
-    print ("\t\t\033[1;91m[!] Me gusta verte.. Hackear \033[0m😃\n\n")
+    print("[•] Hecho... Saliendo...")
+    print("\n\t\t\t\t\033[34mDoctors Eye\033[0m")
+    print("\t\t\033[1;91m[!] Me gusta verte.. Hackear \033[0m😃\n\n")
     sys.exit()
 
 
